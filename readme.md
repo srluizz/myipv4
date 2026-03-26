@@ -30,7 +30,7 @@ Esta aplicação web foi desenvolvida para consultar e exibir o endereço IPv4 p
 Siga os passos abaixo para configurar e rodar a aplicação em seu ambiente local:
 
 # 1. Clonar o repositório
-$git clone https://github.com/srluizz/myipv4.git$ cd my-ipv4
+$git clone https://github.com/srluizz/myipv4.git$ cd myipv4
 
 # 2. Instalar as dependências do Node.js
 $ npm install
