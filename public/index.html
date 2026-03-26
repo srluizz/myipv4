@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My IPv4</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans flex items-center justify-center h-screen">
+
+    <main class="p-10 bg-zinc-900 border border-zinc-800 rounded-3xl shadow-2xl text-center max-w-sm w-full">
+        <h1 class="text-zinc-500 text-xs uppercase tracking-widest font-bold mb-4">My IPv4</h1>
+        
+        <div class="py-8 bg-zinc-950/50 rounded-2xl border border-zinc-800/50 mb-6">
+            <p id="ip-display" class="text-3xl font-mono font-bold text-cyan-400">000.000.000.000</p>
+        </div>
+
+        <button id="btn-refresh" class="w-full bg-cyan-600 hover:bg-cyan-500 py-3 rounded-xl font-semibold transition-all active:scale-95">
+            Update IP
+        </button>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

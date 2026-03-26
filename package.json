@@ -1,0 +1,24 @@
+{
+  "name": "meu-ip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:server": "node --watch index.js",
+    "dev:tw": "tailwindcss -i ./src/input.css -o ./public/styles.css --watch",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:tw\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.8",
+    "tailwindcss": "3.4"
+  }
+}
