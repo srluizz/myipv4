@@ -1,5 +1,5 @@
 {
-  "name": "meu-ip",
+  "name": "myipv4",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,7 @@
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:tw\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Luiz",
   "license": "ISC",
   "description": "",
   "dependencies": {
